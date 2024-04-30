@@ -1,6 +1,7 @@
 ## Resolução de Case - Geovendas - PHP + MYSQL - Rodrigo Dionissa
 
-## Resolução privada
+## Resolução privada - Branch alternativo
+Criei um branch com uma resolução alternativa pois o enunciado não deixou claro se ao fazer o update eu deveria somar a quantidade ou tornar agora como absoluta a nova quantidade que foi passada na última data. Esse branch update without adding faz exatamente isso, caso o produto já exista, ele vai sobrescrever com o último dado que foi passado e mantendo apenas essa quantidade, não somando a que já existia.
 
 ## Atualizador de Estoque
 Este é um script PHP para atualizar o estoque de produtos em um banco de dados a partir de um arquivo JSON. Ele verifica se os produtos já existem no estoque e os atualiza ou adiciona novos produtos caso não existam.
